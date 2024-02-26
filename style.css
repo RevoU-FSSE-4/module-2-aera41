@@ -179,7 +179,7 @@ header {
   flex-direction: column;
   justify-content: center;
   padding-top: 48px;
-  background-image: url("https://private-user-images.githubusercontent.com/157816177/307640166-86946b55-3894-4563-95d5-06840c0b060d.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg5MTE5NjMsIm5iZiI6MTcwODkxMTY2MywicGF0aCI6Ii8xNTc4MTYxNzcvMzA3NjQwMTY2LTg2OTQ2YjU1LTM4OTQtNDU2My05NWQ1LTA2ODQwYzBiMDYwZC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIyNlQwMTQxMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNDZmMDdjZTU0YWEwZGFiMDRhMjA4ZWI2M2NmMzliYWM2ZTUzNWI4MTIyZDZkYTQyODdkMjAxZTM5Y2RiZThiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.sJvbd8yEPP_5-_i5eoIxzsHzdnf7WAVhS4qkm40U27w");
+  background-image: url("https://private-user-images.githubusercontent.com/157816177/307640166-86946b55-3894-4563-95d5-06840c0b060d.jpg");
   background-position: top center;
   background-size: cover;
 }
