@@ -99,4 +99,3 @@ Terima kasih kepada semua yang telah berkontribusi pada pengembangan dan pemelih
 
 Versi terkini dari situs web ini adalah 1.0.0. Untuk informasi tentang pembaruan dan perubahan, silakan lihat file `CHANGELOG.md`.
 
-https://aera41.github.io/Tugas-Revou/
