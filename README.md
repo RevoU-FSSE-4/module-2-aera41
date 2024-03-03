@@ -1,101 +1,77 @@
-https://bundapaudsurabaya.site/
-
 # Website Bunda PAUD Kota Surabaya
 
 Ini adalah aplikasi web untuk menunjukkan aktivitas Bunda PAUD Kota Surabaya. Situs web ini dirancang responsif dan memiliki fitur mode gelap.
 
 ## Fitur
 
-1. **Bar Navigasi**: Berisi logo situs web, judul, dan tombol mode gelap.
-2. **Header**: Menampilkan profil Bunda PAUD Surabaya.
-3. **Konten Utama**: Berisi beberapa bagian:
-    - **Album Bunda PAUD**: Menampilkan koleksi foto terkait aktivitas Bunda PAUD.
-    - **Fakta Terkait Bunda PAUD Surabaya**: Menyajikan fakta tentang Bunda PAUD Surabaya.
-    - **Video Profil Bunda PAUD Kota Surabaya**: Menyematkan video YouTube yang memprofilkan Bunda PAUD Surabaya.
-    - **Formulir Kontak**: Memungkinkan pengguna untuk mengirimkan data pribadi dan informasi tambahan terkait Bunda PAUD.
+- **Bar Navigasi**: Berisi logo situs web, judul, dan tombol mode gelap.
+- **Header**: Menampilkan profil Bunda PAUD Surabaya.
+- **Konten Utama**: Berisi beberapa bagian seperti Album Bunda PAUD, Fakta Terkait Bunda PAUD Surabaya, dan lainnya.
+- **Formulir Kontak**: Untuk pengiriman data pribadi dan informasi terkait Bunda PAUD.
+
+## Teknologi Digunakan
+
+- HTML5, CSS3, JavaScript untuk frontend.
+- Vercel untuk hosting dan deployment.
+
+## Deployment dengan Vercel dan GitHub
+
+### Proses Pendaftaran Vercel dan Penghubungan dengan GitHub
+
+1. Daftar atau masuk ke [Vercel](https://vercel.com).
+2. Dari dashboard Vercel, klik "New Project", lalu pilih "Import Project" dan hubungkan dengan repositori GitHub Anda.
+3. Pilih repositori yang ingin Anda deploy dan ikuti langkah-langkah untuk mengonfigurasinya di Vercel.
+
+### Penempatan Otomatis di GitHub dengan Vercel
+
+- Konfigurasi GitHub Actions di repositori Anda untuk otomatisasi deployment. Vercel secara otomatis menangani ini saat Anda menghubungkan repositori Anda.
+
+### Menghubungkan Domain dan DNS Khusus
+
+1. Beli domain melalui penyedia seperti NiagaHoster.
+2. Di dashboard Vercel, pilih proyek Anda, lalu ke tab "Settings" > "Domains", dan tambahkan domain yang Anda miliki.
+3. Ikuti instruksi untuk mengatur catatan DNS pada penyedia domain Anda agar mengarah ke Vercel.
+   
+![Screenshot_50](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/a619efa6-7f90-4dda-aeff-5d113d1e50ff)
+![Screenshot_51](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/20aade10-58f0-4e44-9f57-920cfce317e5)
+![Screenshot_55](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/fc2832b7-6144-4d2a-a2c7-601625545a9f)
+![Screenshot_56](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/2a7e8505-beae-4722-a4ef-bc8a87d3f253)
+![Screenshot_57](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/5dd0474e-3ec7-4da4-9bdb-0cece789dd0c)
+![Screenshot_60](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/d82ad934-1e7f-4e60-b46b-9ea4d9b4a044)
+![Screenshot_61](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/f5fcf8ba-57c8-41a8-a08d-024235440b76)
+![Screenshot_69](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/b52a1b30-ed80-49ef-9f77-8cf5519f22b5)
+![Screenshot_70](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/b7229f25-20e9-4fc0-a518-bfbfaa3e111d)
+![Screenshot_71](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/56bedd48-e68f-455b-817d-b258a552dc65)
+![Screenshot_72](https://github.com/RevoU-FSSE-4/module-2-aera41/assets/157816177/7aca69e6-18f6-4860-8728-19f845199ad0)
 
 ## Skrip
 
-Situs web menggunakan skrip untuk mengganti fitur mode gelap. Status mode gelap disimpan di penyimpanan lokal.
+Skrip JavaScript digunakan untuk mengganti tema situs antara mode terang dan gelap, dengan preferensi disimpan di penyimpanan lokal pengguna.
 
-## Informasi Meta
+## Struktur HTML & CSS
 
-- **Charset**: UTF-8
-- **Deskripsi**: Aplikasi web untuk menunjukkan aktivitas Bunda PAUD Kota Surabaya
-- **Kata Kunci**: Pendidikan, Masa Kanak-Kanak, Surabaya, Bunda PAUD
-- **Pembuat**: Pemerintah Kota Surabaya
-- **Viewport**: lebar=device-width, skala awal=1.0
-
-## Struktur HTML
-
-Berikut adalah struktur HTML dari situs web:
-
-- **DOCTYPE**: HTML5
-- **html**: Elemen root dari halaman web.
-  - **head**: Berisi metadata dan informasi lainnya seperti judul halaman web dan link ke CSS.
-  - **body**: Berisi konten utama halaman web.
-    - **nav**: Bar navigasi.
-    - **header**: Bagian header situs web.
-    - **main**: Bagian utama situs web.
-      - **section**: Berisi bagian-bagian konten yang berbeda.
-    - **script**: Berisi skrip JavaScript untuk fungsi mode gelap.
-
-## CSS
-
-Situs web ini menggunakan dua file CSS eksternal, `style.css` dan `responsive.css`, untuk styling dan responsivitas.
-
-## JavaScript
-
-Situs web ini menggunakan JavaScript untuk mengimplementasikan fitur mode gelap. Skrip ini memeriksa apakah mode gelap telah diaktifkan sebelumnya dan mengubah tema situs web sesuai.
+Situs ini menggunakan struktur HTML5 dengan styling CSS eksternal (`style.css` dan `responsive.css`) untuk tampilan responsif.
 
 ## Formulir Kontak
 
-Formulir kontak memungkinkan pengguna untuk mengirimkan data pribadi dan informasi tambahan terkait Bunda PAUD. Formulir ini mencakup bidang untuk nama lengkap, email, tanggal lahir, domisili, dan pengalaman terkait Bunda PAUD.
-
-## Gambar
-
-Situs web ini menggunakan berbagai gambar, termasuk logo Bunda PAUD dan foto-foto terkait aktivitas Bunda PAUD.
-
-## Video
-
-Situs web ini menyematkan video YouTube yang memprofilkan Bunda PAUD Surabaya.
-
-## Pengujian
-
-Situs web ini telah diuji di berbagai perangkat dan browser untuk memastikan kompatibilitas dan fungsionalitas yang optimal. Beberapa perangkat dan browser yang digunakan untuk pengujian termasuk:
-
-- Desktop: Chrome, Firefox, Safari, Edge
-- Mobile: Chrome (Android), Safari (iOS)
+Memungkinkan pengiriman data pribadi dan informasi terkait dengan menggunakan metode POST ke server atau API yang ditentukan.
 
 ## Hosting dan Deployment
 
-Situs web ini di-hosting di GitHub Pages dan menggunakan sistem kontrol versi Git untuk manajemen dan deployment kode.
+Situs web ini di-hosting di Vercel, dengan proses deployment yang terautomasi melalui GitHub Actions setiap kali perubahan dicommit ke cabang utama.
 
 ## Kontribusi
 
-Kontribusi sangat diterima! Jika Anda tertarik untuk berkontribusi, silakan fork repositori ini, buat perubahan Anda, dan kirimkan pull request.
+Untuk berkontribusi, fork repositori, buat perubahan Anda, dan kirim pull request. Kami sangat menghargai setiap kontribusi.
 
 ## Lisensi
 
-Situs web ini dilisensikan di bawah lisensi MIT. Untuk informasi lebih lanjut, silakan lihat file `LICENSE`.
+Dilisensikan di bawah MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
 
-## Kontak
+## Kontak dan Dukungan
 
-Jika Anda memiliki pertanyaan atau masalah terkait situs web ini, silakan hubungi kami melalui formulir kontak di situs web atau kirim email ke `info@bundapaudsurabaya.com`.
-
-## Dukungan
-
-Jika Anda menemui masalah saat menggunakan situs web ini, silakan buka `Issue` baru di repositori GitHub ini. Kami akan berusaha untuk menanggapi dan menyelesaikan masalah secepat mungkin.
+Untuk pertanyaan atau masalah, hubungi kami melalui formulir kontak atau email `info@bundapaudsurabaya.com`. Laporkan masalah di GitHub Issues.
 
 ## Pembaruan dan Pemeliharaan
 
-Situs web ini secara aktif dipelihara dan diperbarui. Perubahan dan pembaruan akan dicatat dalam file `CHANGELOG.md`.
-
-## Penghargaan
-
-Terima kasih kepada semua yang telah berkontribusi pada pengembangan dan pemeliharaan situs web ini. Kami menghargai dukungan dan umpan balik Anda.
-
-## Versi
-
-Versi terkini dari situs web ini adalah 1.0.0. Untuk informasi tentang pembaruan dan perubahan, silakan lihat file `CHANGELOG.md`.
-
+Informasi pembaruan dan pemeliharaan tercatat dalam `CHANGELOG.md`. Situs ini secara aktif dipelihara untuk memastikan fungsionalitas optimal.
